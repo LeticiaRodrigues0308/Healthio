@@ -6,3 +6,13 @@
 body {
     font-family: Montserrat;
 }
+
+.logo {
+    background-image: linear-gradient(to bottom, #ECAA80 , #725DE5);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}

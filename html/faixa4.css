@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    font-family: Montserrat;
+    background: linear-gradient(86.08deg, #ECAA80 0%, #725DE5 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 9em;
+    position: absolute;
+}
+
+.celular1 img{
+    width: 18em;
+    position: relative;
+    left: 15em;
+}
+
+.celular2 img{
+    width: 18em;
+    position: relative;
+    left: 8em;
+    bottom: 3.8em;
+}
+
+.box-texto {
+    margin-left: 12em;
+}
+
+.titulo {
+    font-size: 2.3em;
+    font-weight: 700;
+    color: white;
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+.descricao {
+    color: #CBCBCB;
+    width: 26em;
+    margin-bottom: 2em;
+}
+
+button {
+    color: #252531;
+    font-weight: 700;
+    line-height: 5px;
+    background-color: #DDDDDD;
+    width: 12em;
+    height: 3em;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
