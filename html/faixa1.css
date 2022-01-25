@@ -4,15 +4,151 @@
 }
 
 body {
+    background-color: #252531;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5em;
     font-family: Montserrat;
+    font-weight: 600;
+
 }
 
 .logo {
-    background-image: linear-gradient(to bottom, #ECAA80 , #725DE5);
+    background-image: linear-gradient(to right, #ECAA80 , #725DE5);
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
-  
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 2em;
     /* Adicionado: */
     -webkit-text-fill-color: transparent;
+}
+
+.elipse {
+    margin: -41em 0 0 6em;
+    border-radius: 100%;
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 1015px;
+    top: 512px;
+
+    background: linear-gradient(314.01deg, #725DE5 18.6%, #DE9BA3 68.77%);
+    filter: blur(40px);
+}
+
+.box-cabecalho{
+    display: flex;
+    flex-direction: row;
+    margin: .8em 2em 0 0;
+    z-index: 1;
+    
+    color: white;
+}
+
+.box-filho{
+    margin-right: 2.5em;
+    
+}
+
+.box-filho button{
+    background-color: #3B3A4C;
+    font-weight: 600;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 108px;
+    height: 33px;
+    margin-top: -.4em;
+    font-size: 16px;
+    
+}
+
+.celldesc{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-app{
+    display: flex;
+    flex-direction: column;
+    margin: 16em 0 0 12em;
+    width: 30em;
+    font-family: Montserrat;
+}
+
+.titulo-app{
+    font-size: 57px;
+    color: white;
+    font-weight: 600;
+}
+
+.desc-app{
+    font-size: 16px;
+    color: #92919D;
+    text-align: left;
+    width: 442px;
+
+}
+
+.botao-app{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+}
+
+.download-app{
+    margin-right: 1em;
+    
+}
+
+.download-app button{
+    font-size: 16px;
+    color: white;
+    background-color: #725DE5;
+    border: 0;
+    border-radius: 10px;
+    width: 176px;
+    height: 47px;
+    font-weight: 600;
+}
+
+.sobre-app button{
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #45415A;
+    width: 101px;
+    height: 47px;
+    font-weight: 600;
+}
+
+.box-cellphone img {
+    max-width: 24em;
+    
+}
+
+.box-cellphone{
+    margin: 5em 0 0 38em;
+    z-index: 1;
+}
+
+.elipse2 {
+    margin: 0em 0 0 20em;
+    border-radius: 100%;
+    position: absolute;
+    width: 483px;
+    height: 483px;
+    left: 1015px;
+    top: 512px;
+
+    background: linear-gradient(314.01deg, #725DE5 18.6%, #DE9BA3 68.77%);
+    filter: blur(70px);
 }
